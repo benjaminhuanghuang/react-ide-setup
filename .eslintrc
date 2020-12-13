@@ -5,7 +5,7 @@
     "node": true
   },
   "rules": {
-    "react/prefer-stateless-function": "off",
+    "react/prefer-stateless-function": "on",
     "react/destructuring-assignment": "off",
     "react/button-has-type": "off",
     "quotes": [2, "prefer-single"]
