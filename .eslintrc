@@ -1,11 +1,14 @@
 {
+  "parser": "babel-eslint",
   "extends": "airbnb",
   "env": {
     "browser": true,
     "node": true
   },
   "rules": {
-    "react/prefer-stateless-function": "on",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "max-classes-per-file": ["error", 0],
+    "react/prefer-stateless-function": 0,
     "react/destructuring-assignment": "off",
     "react/button-has-type": "off",
     "quotes": [2, "prefer-single"]
